@@ -122,7 +122,6 @@ class LocationWikilinksSettingTab extends PluginSettingTab {
 	display() {
 		const { containerEl } = this;
 		containerEl.empty();
-		containerEl.createEl("h2", { text: "Location Wikilinks" });
 
 		new Setting(containerEl)
 			.setName("Map provider")

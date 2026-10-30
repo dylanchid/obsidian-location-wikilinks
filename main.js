@@ -245,18 +245,6 @@ module.exports = class LocationWikilinksPlugin extends Plugin {
 				return;
 			}
 
-			let electron = null;
-			try {
-				electron = typeof require === "function" ? require("electron") : null;
-			} catch (_error) {
-				electron = null;
-			}
-
-			if (electron && electron.shell && typeof electron.shell.openExternal === "function") {
-				await electron.shell.openExternal(url);
-				return;
-			}
-
 			window.open(url, "_blank", "noopener");
 		} catch (error) {
 			console.error("Failed to open location wikilink", error);

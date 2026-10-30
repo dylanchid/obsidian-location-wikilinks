@@ -1,10 +1,10 @@
 {
-	"id": "location-wikilinks",
-	"name": "Location Wikilinks",
-	"version": "0.1.0",
-	"minAppVersion": "0.15.0",
-	"description": "Turns [[*location]] wikilinks into Apple Maps or Google Maps links.",
-	"author": "Dylan Chidambaram",
-	"authorUrl": "",
-	"isDesktopOnly": false
+  "id": "location-wikilinks",
+  "name": "Location Wikilinks",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "Open location wikilinks in Apple Maps or Google Maps.",
+  "author": "Dylan Chidambaram",
+  "authorUrl": "",
+  "isDesktopOnly": false
 }
